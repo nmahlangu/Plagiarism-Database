@@ -14,7 +14,7 @@ How to Test
 - To test comparing a file against every other file in the database:
 	./database < tests/option3_tests.txt
 
-/db (directory)
+db/ (directory)
 - Contains a bunch of random text files for input
 - lorem_a.txt is the baseline file
 - lorem_b.txt differs from the baseline by 10 words
@@ -24,11 +24,11 @@ How to Test
 - lorem_f.txt differs from the baseline by 50 words
 - lorem_g.txt is the same as the baseline file
 
-/database.c
+database.c
 - Main file
 - Need to have the readline library for this (brew install readline)
 
-/init
+init
 - File that keeps track of all the files in the database
 - Add a file to the /db foler and it's name to this list and it will automatically
   be added to the database
