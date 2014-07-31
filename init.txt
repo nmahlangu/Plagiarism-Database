@@ -1,0 +1,7 @@
+lorem_a.txt
+lorem_b.txt
+lorem_c.txt
+lorem_d.txt
+lorem_e.txt
+lorem_f.txt
+lorem_g.txt
